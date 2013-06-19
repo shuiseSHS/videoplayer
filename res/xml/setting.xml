@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference android:title="系统设置" android:key="setting_title"/>
+
+    <PreferenceCategory android:title="播放" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/soft_decode"
+            android:summaryOff="关闭"
+            android:summaryOn="开启"
+            android:title="使用软解码" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/setting_p2p"
+            android:summaryOff="关闭"
+            android:summaryOn="开启"
+            android:title="开启P2P" />
+        </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale" severity="ignore" />
+    <issue id="HandlerLeak">
+        <ignore path="src\com\qiyi\test\view\P2PVideoView.java" />
+    </issue>
+</lint>

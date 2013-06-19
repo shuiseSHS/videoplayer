@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">欢乐直播</string>
+    <string name="input_url">输入网址</string>
+    <string name="qiyi_all">直播频道列表</string>
+    <string name="setting">播放设置</string>
+    <string name="my_collect">我的收藏列表</string>
+    <string name="viewtitle">当前无节目播放</string>
+    <string name="surface_best_fit">最为合适</string>
+    <string name="surface_fit_horizontal">水平匹配</string>
+    <string name="surface_fit_vertical">垂直匹配</string>
+    <string name="surface_fill">填充</string>
+    <string name="surface_original">居中</string>
+    <string name="loaing">加载中…</string>
+    <string name="list_name">所有</string>
+    <string name="collect_name">收藏</string>
+    <string name="setting_name">设置</string>
+    <string name="advertise">广告虚位以待…</string>
+    <string name="soft_decode">soft_decode</string>
+    <string name="setting_p2p">setting_p2p</string>
+    <string name="app_list_header_refresh_last_update">松开开始刷新</string>
+    <string name="app_list_header_refresh_down">向下滑动刷新</string>
+
+</resources>

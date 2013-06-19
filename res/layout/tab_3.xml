@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:drawableTop="@drawable/phone_my_setting"
+        android:text="@string/setting_name"
+        android:textColor="#FF999999"
+        android:textSize="10sp" 
+        android:shadowColor="#FF333333"
+        android:shadowDx="2"
+        android:shadowDy="2" 
+        android:shadowRadius="2"/>
+
+</LinearLayout>

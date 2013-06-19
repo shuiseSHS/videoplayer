@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/title_bg"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/qiyi_all"
+            android:textColor="#FFCCCCCC"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/view_advertise1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="#5500FF00" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/list_channel"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:horizontalSpacing="2dp"
+        android:listSelector="#00000000"
+        android:numColumns="2"
+        android:verticalSpacing="2dp" >
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/list_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff669933"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="@string/loaing"
+            android:textColor="#FF000000" />
+    </LinearLayout>
+
+</LinearLayout>
